@@ -2,8 +2,15 @@
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    darkMode: 'class',
+    extend: {
+      fontFamily: {
+        kufam: ["Kufam", "sans-serif"],
+      },
+      colors: {
+        primary: '#663399',
+      },
+    },
   },
   plugins: [],
 };
- 

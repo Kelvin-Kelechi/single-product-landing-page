@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-white dark:bg-black;
+}
+
+/* index.css */
+ 
+
+/* h3,
+p,
+span {
+  @apply text-black dark:text-white;
+} */
+
+
